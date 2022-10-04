@@ -9,7 +9,8 @@ test.beforeEach(async ({ homePage,loginPage,createArticlePage ,articlePage, myPr
   });
   
 
-test(`@Smoke Verify user is able to create article and delete TC_CA_001,TC_CA_002,TC_DA_001`, async ({ homePage,loginPage,createArticlePage ,articlePage, myProfilePage }) => {
+test(`@Smoke Verify user is able to create article and delete article TC_CA_001,TC_CA_002,TC_DA_001`, 
+        async ({ homePage,loginPage,createArticlePage ,articlePage, myProfilePage }) => {
 
     await homePage.clickOnNewArticleLink();
     await createArticlePage.verifyAllPageElementsAreVisible();
@@ -33,7 +34,9 @@ test(`@Smoke Verify user is able to create article and delete TC_CA_001,TC_CA_00
     
 });
 
-test(`@Smoke Verify user is able to Update article and delete TC_CA_001,TC_CA_002,TC_DA_001`, async ({ homePage,loginPage,createArticlePage ,articlePage, myProfilePage }) => {    
+test(`@Smoke Verify user is able to Update article and delete article TC_DA_002,TC_CA_003,TC_UA_001,TC_UA_002`,
+        async ({ homePage,loginPage,createArticlePage ,articlePage, myProfilePage }) => {    
+            
     await homePage.clickOnNewArticleLink();
     await createArticlePage.verifyAllPageElementsAreVisible();
     await createArticlePage.inputArticleData();
