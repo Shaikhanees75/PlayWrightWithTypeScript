@@ -1,0 +1,29 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="25.23161799997091">
+<testsuite name="test\BBLOG_Articles.test.ts" timestamp="1664924044195" hostname="" tests="2" failures="0" skipped="0" time="23.267" errors="0">
+<testcase name="@Smoke Verify user is able to create article and delete article TC_CA_001,TC_CA_002,TC_DA_001" classname="[Chromium] › test\BBLOG_Articles.test.ts › @Smoke Verify user is able to create article and delete article TC_CA_001,TC_CA_002,TC_DA_001" time="9.007">
+<system-out>
+<![CDATA[ bblogqaaneesshaikh 
+BBLOG ARTICLE CREATION WITH AUTOMATION
+WE ARE TRYING TO AUTOMATE CRUD FLOW FOR BBLOG
+ AUTOMATION TESTING 
+ October 4, 2022 
+ bblogqaaneesshaikh 
+bblogqaaneesshaikh
+BBLOG ARTICLE CREATION WITH AUTOMATION
+ AUTOMATION TESTING 
+TEST AUTOMATION
+ October 4, 2022 
+]]>
+</system-out>
+</testcase>
+<testcase name="@Smoke Verify user is able to Update article and delete article TC_DA_002,TC_CA_003,TC_UA_001,TC_UA_002" classname="[Chromium] › test\BBLOG_Articles.test.ts › @Smoke Verify user is able to Update article and delete article TC_DA_002,TC_CA_003,TC_UA_001,TC_UA_002" time="14.26">
+<system-out>
+<![CDATA[ bblogqaaneesshaikh 
+BBLOG ARTICLE CREATION WITH AUTOMATION
+BBLOG ARTICLE CREATION WITH AUTOMATION UPDATE
+WE ARE TRYING TO AUTOMATE CRUD FLOW FOR BBLOG UPDATE
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
