@@ -1,0 +1,27 @@
+{
+  "name": "bblog",
+  "version": "1.0.0",
+  "description": "Test automation for BBLOG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anees Ismail Shaikh",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.26.1",
+    "@types/crypto-js": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "allure-commandline": "^2.18.1",
+    "crypto-js": "^4.1.1",
+    "eslint": "^8.24.0",
+    "eslint-plugin-import": "^2.26.0",
+    "experimental-allure-playwright": "^0.0.3",
+    "lighthouse": "^9.6.7",
+    "winston": "^3.8.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
